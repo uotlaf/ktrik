@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Send via 3dslink" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+    <deployment type="docker-image">
+      <settings>
+        <option name="imageTag" value="devkitpro/devkitarm" />
+        <option name="command" value="3dslink out.3dsx --address 192.168.1.22" />
+        <option name="containerName" value="devkitarm" />
+        <option name="commandLineOptions" value="--network=host --workdir=&quot;/applications&quot;" />
+        <option name="showCommandPreview" value="true" />
+        <option name="volumeBindings">
+          <list>
+            <DockerVolumeBindingImpl>
+              <option name="containerPath" value="/applications" />
+              <option name="hostPath" value="$PROJECT_DIR$" />
+            </DockerVolumeBindingImpl>
+          </list>
+        </option>
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>

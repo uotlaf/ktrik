@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Debug in 3ds" type="CLion_Remote" version="1" remoteCommand="192.168.1.22:4003" symbolFile="$PROJECT_DIR$/out.elf" sysroot="$PROJECT_DIR$">
+    <debugger kind="GDB" isBundled="true" />
+    <pathMapping remote=":/applications" local="." />
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Clean" run_configuration_type="docker-deploy" />
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Build" run_configuration_type="docker-deploy" />
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Send via 3dslink" run_configuration_type="docker-deploy" />
+    </method>
+  </configuration>
+</component>
