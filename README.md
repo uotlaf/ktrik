@@ -26,3 +26,11 @@ Obs: You must be have citra installed and in your $PATH
 # Changing project name
 - Edit [.env](.env_example) with your app name
 - Remember to edit the run configurations(Send via 3dslink, debug in citra and debug in 3ds) with your new app name
+
+# Why ktrik?
+- ktr = new 3ds codename
+- ik = reference to [Inky](https://github.com/Inky1003). I started this project with the aim of showing him a "Bom dia inky!"(Good morning inky)
+
+# TODO:
+- Expand to other IDEs
+- Shell Scripts to cmdline usage?
