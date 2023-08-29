@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Run in Citra" type="ShConfigurationType">
+  <configuration default="false" name="Run in Citra (Linux/macOS)" type="ShConfigurationType">
     <option name="SCRIPT_TEXT" value="citra -g 3303 *.elf &gt; citra.log &amp;" />
     <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
     <option name="SCRIPT_PATH" value="" />

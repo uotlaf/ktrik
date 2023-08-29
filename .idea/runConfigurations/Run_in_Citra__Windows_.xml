@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run in Citra (Windows)" type="PowerShellRunType" factoryName="PowerShell" scriptUrl="D:\HD\Desktop\ktrik\.idea/citra.ps1" workingDirectory="D:\HD\Desktop\ktrik" executablePath="powershell">
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

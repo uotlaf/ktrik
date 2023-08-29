@@ -18,10 +18,15 @@ Copy [.env_example](.env_example) to .env and change project name
 - Edit "'target remote' args" with your console IP Address
 - Select "Debug in 3DS" in debug/run toolbar
 - Done! Press Shift+F9 and good debugging!
-## Debug in Citra
+## Debug in Citra(Linux/macOS)
 Obs: You must be have citra installed and in your $PATH
-- Select "Debug in citra" in debug/run toolbar
+- Select "Debug in citra(Linux/macOS)" in debug/run toolbar
 - Done! Press Shift+F9 and good debugging!
+## Debug in Citra(Windows)
+Obs: You must be have citra installed and in your $PATH
+- Select "Debug in citra(Windows)" in debug/run toolbar
+- Done! Press Shift+F9 and good debugging!
+
 
 # Changing project name
 - Edit [.env](.env_example) with your app name

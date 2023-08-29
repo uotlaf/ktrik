@@ -5,7 +5,7 @@
     <method v="2">
       <option name="RunConfigurationTask" enabled="true" run_configuration_name="Clean" run_configuration_type="docker-deploy" />
       <option name="RunConfigurationTask" enabled="true" run_configuration_name="Build" run_configuration_type="docker-deploy" />
-      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Run in Citra" run_configuration_type="ShConfigurationType" />
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Run in Citra (Linux/macOS)" run_configuration_type="ShConfigurationType" />
     </method>
   </configuration>
 </component>

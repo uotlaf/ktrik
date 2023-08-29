@@ -5,14 +5,17 @@
 
 int main(int argc, char* argv[])
 {
-	gfxInitDefault();
-	consoleInit(GFX_TOP, NULL);
+    PrintConsole topConsole, bottomConsole;
 
-	printf("Hello, world!\n");
+    gfxInitDefault();
+	consoleInit(GFX_TOP, &topConsole);
+    consoleInit(GFX_BOTTOM, &bottomConsole);
+
 
 	// Main loop
 	while (aptMainLoop())
 	{
+        printf("Hello, world!\n");
 		gspWaitForVBlank();
 		gfxSwapBuffers();
 		hidScanInput();
@@ -22,6 +25,9 @@ int main(int argc, char* argv[])
 		u32 kDown = hidKeysDown();
 		if (kDown & KEY_START)
 			break; // break in order to return to hbmenu
+        if (kDown & KEY_UP) {
+            consoleSelect()
+        }
 	}
 
 	gfxExit();
